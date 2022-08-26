@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=League+Spartan:wght@300&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;}
+h1,h4,a{ color: #2299aa;}
+p{
+    line-height: 1.5rem;
+    color: #333333;
+    font-size: 20px;
+}
+/* navigation */
+.navigation {
+	z-index: 1000;
+	width: 100%;
+	position: relative;
+	min-height: 60px;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar-light .navbar-brand {
+    color: #2299aa !important;
+    font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+/* banner */
+.banner, .my-works, .pricing, .testimonials{
+	background-color: #eae7dc;
+}
+
+.my-clients .card, .my-contacts .card{
+    background-color: #eae7dc;
+    border: none;
+}
+.my-contacts a{
+    text-decoration: none;
+}
+.what-i-do h4{
+    font-weight: 600;
+}
+/* buttons */
+.btn{
+    background-color: #2299aa !important;
+    border-radius: 2rem !important;
+    color: #ffffff !important;
+    border: #2299aa !important; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h1, h5{
+    font-weight: 700;
+}
+/* icons */
+.icon{
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #2299aa;
+    border-radius: 28px;
+    height: 50px;
+    max-width: 50px;
+    background-size: 20%;
+    padding: 12px;
+    margin: auto;
+
+}
+hr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.skills_section{
+
+    width: 100%;
+
+    height: 100vh;
+
+    padding: 0px 13%;
+
+    background-color: rgba(0, 0, 0, 0.082);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.skills_head{
+
+    width: 100%;
+
+    margin-bottom: 100px;
+
+    display: grid;
+
+    place-items: center;
+
+    text-align: center;
+
+}
+
+.skills_head h2{
+
+    font-size: 30px;
+
+    margin-bottom: -5px;
+
+}
+
+.skills_head h2 span{
+
+    color: #e74d06;
+
+}
+
+.skills_main{
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-row-gap: 30px;
+
+    grid-column-gap: 50px;
+
+}
+
+.skills_main .skill_bar .info{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding:  0 10px;
+
+}
+
+.skill_bar .info p:nth-child(2){
+
+    font-weight: 500;
+
+}
+
+.skill_bar .bar{
+
+    width: 100%;
+
+    height: 10px;
+
+    background-color: rgba(0, 0, 0, 0.144);
+
+    border-radius: 25px;
+
+    margin-top: 5px;
+
+    position: relative;
+
+}
+
+.skill_bar .bar span{
+
+    width: 50%;
+
+    height: 100%;
+
+    position: absolute;
+
+    background-color: #e74d06;
+
+    border-radius: 25px;
+
+}
+
+.skill_bar .bar .html{
+
+    width: 90%;
+
+    animation: html 2s;
+
+}
+
+@keyframes html {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 90%;
+
+    }
+
+}
+
+.skill_bar .bar .css{
+
+    width: 85%;
+
+    animation: css 2s;
+
+}
+
+@keyframes css {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 85%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+.skill_bar .bar .js{
+
+    width: 80%;
+
+    animation: css 2s;
+
+}
+
+@keyframes js {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 80%;
+
+    }
+
+}
+
+.skill_bar .bar .react{
+
+    width: 75%;
+
+    animation: react 2s;
+
+}
+
+@keyframes react {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 75%;
+
+    }
+
+}
+
+.skill_bar .bar .node{
+
+    width: 70%;
+
+    animation: node 2s;
+
+}
+
+@keyframes node {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 70%;
+
+    }
+
+}
+
+.skill_bar .bar .express{
+
+    width: 65%;
+
+    animation: express 2s;
+
+}
+
+@keyframes express {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 65%;
+
+    }
+
+}
+
+.skill_bar .bar .mongo{
+
+    width: 60%;
+
+    animation: mongo 2s;
+
+}
+
+@keyframes mongo {
+
+    0%{
+
+        width: 0%;
+
+    }100%{
+
+        width: 60%;
+
+    }
+
+}
+/* footer */
+.footer a{
+    text-decoration: none;
+    color: #2299aa;
+    font-style: italic;
+}
